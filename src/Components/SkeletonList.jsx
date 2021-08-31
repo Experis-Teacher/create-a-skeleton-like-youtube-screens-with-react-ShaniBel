@@ -7,7 +7,7 @@ const SkeletonList = ({ list }) => {
     <div>
       <SkeletonTheme>
         <h1>
-          <Skeleton />
+          <Skeleton width={250} />
         </h1>
       </SkeletonTheme>
       <ul className="list">
