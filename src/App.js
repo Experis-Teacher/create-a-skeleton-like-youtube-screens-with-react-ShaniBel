@@ -52,6 +52,7 @@ class App extends Component {
         {this.state.videos.map((list, index) => {
           return (
             <section key={index}>
+              <h2 className="section-title">{list.section}</h2>
               <SkeletonList list={list} />
               <hr />
             </section>

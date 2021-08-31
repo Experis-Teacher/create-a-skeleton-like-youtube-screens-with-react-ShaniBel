@@ -7,7 +7,7 @@ const SkeletonCard = ({ item, channel }) => {
       <SkeletonTheme color="grey" highlightColor="#444">
         <li className="card">
           {/* <img src={item.image} alt={item.title} className="card-image" /> */}
-          <Skeleton className="card-image" height={200} width={300} />
+          <Skeleton className="card-image" height={200} width={200} />
           {/* <img src={item.image} alt={item.title} className="channel-image" /> */}
           <Skeleton className="channel-image" circle={true} height={50} width={50} />
 
