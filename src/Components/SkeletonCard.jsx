@@ -9,16 +9,16 @@ const SkeletonCard = ({ item, channel }) => {
           {/* <img src={item.image} alt={item.title} className="card-image" /> */}
           <Skeleton className="card-image" height={200} width={300} />
           {/* <img src={item.image} alt={item.title} className="channel-image" /> */}
-          <Skeleton className="channel-image" circle />
+          <Skeleton className="channel-image" circle={true} height={50} width={50} />
 
           <h4 className="card-title">
-            <Skeleton></Skeleton>
+            <Skeleton width={200}></Skeleton>
           </h4>
           <p className="card-channel">
-            <Skeleton></Skeleton>
+            <Skeleton width={100}></Skeleton>
           </p>
           <div className="card-metrics">
-            <Skeleton></Skeleton>
+            <Skeleton width={170}></Skeleton>
           </div>
         </li>
         {/* <p>
